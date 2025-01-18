@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  height: 100vh;
+  position: relative;
+  left: 30%;
+  background-color: black;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  padding-left: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  height: 80px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+.keys {
+  padding: 30px;
+  position: absolute;
+  top: 55px;
+}
+
+button {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: HSL(0, 0%, 20%);
+  border: none;
+  margin: 5px;
+}
+.numbers:active {
+  background-color: HSL(0, 0%, 30%);
+}
+
+.operator {
+  background-color: HSL(38.82, 100%, 50%);
+}
+
+.operator:active {
+  background-color: HSL(38.82, 100%, 70%);
+}
